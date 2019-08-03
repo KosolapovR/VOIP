@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1.0"> <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+        <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/popup.js"></script>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+   <div class="left"></div>
+    <div class="whrapper">
+        <header class="header">
+          
+            <div id="popup1">
+             <div class="pop-up-menu--close">
+                 <i class="fas fa-times fa-2x"></i>
+             </div>
+    <div class="pop-up-menu">
+        <ul class="category">
+             <li>О компании</li>
+                <li><a href="katalog.html">Продукция</a></li>
+                <li><a href="production.html">Пиломатериалы</a><i class="fas fa-caret-right"></i></li>
+                <li>Ламели</li>
+                
+                <li>Фанера</li>
+                <li>ДСП</li>
+                <li>Стружка</li>
+                <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <div class="sub__header1--320"><p class="contacts"><span class="up-contact">адрес</span><br>г. Никольск, ул. Комсомолькая 27</p></div>
+        <div class="sub__header2--320"> <p class="contacts"><span class="up-contact">телефон</span><br>8(937)418-33-33</p></div>
+        <div class="sub__header3--320">Заказать звонок</div>
+    </div>
+    </div>
+           
+            <div class="hamburger"><i class="fas fa-bars fa-2x"></i></div>
+            <div class="logo"><a href="index.html"></a></div>
+            <div class="sub__header1">
+                <p class="contacts"><span class="up-contact">адрес</span><br>г. Никольск, ул. Комсомолькая 27</p>
+            </div>
+            <div class="sub__header2">
+                <p class="contacts"><span class="up-contact">телефон</span><br>8(937)418-33-33</p>
+            </div>
+            <div class="sub__header3">Заказать звонок</div>
+               <div class="call320"></div>
+        </header>
+        <nav>
+            <ul>
+                <li>О компании</li>
+                <li><a href="katalog.html">Продукция</a></li>
+                <li><a href="production.html">Пиломатериалы</a></li>
+                <li>Ламели</li>
+                <li>Фанера</li>
+                <li>ДСП</li>
+                <li>Стружка</li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            </nav>
+            <main>
+                <sidebar class="menu">
+                    <ul>
+                        <li id="lumber"><a href="production.html">Пиломатериалы<i class="fas fa-caret-right"></i></a></li>
+                        <li>Ламели<i class="fas fa-caret-right"></i></li>
+                        <li>Фанера<i class="fas fa-caret-right"></i></li>
+                        <li>ДСП<i class="fas fa-caret-right"></i></li>
+                        <li>Стружка<i class="fas fa-caret-right"></i></li>
+                    </ul>
+                </sidebar>
+                <section class="content768">
+                 <h3 id="item">Контакты</h3>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4722.511021579436!2d46.09123867284869!3d53.71371047595385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4143cd7f824f6719%3A0x5560952b4735ebe1!2z0YPQuy4g0JrQvtC80YHQvtC80L7Qu9GM0YHQutCw0Y8sIDI3LCDQndC40LrQvtC70YzRgdC6LCDQn9C10L3Qt9C10L3RgdC60LDRjyDQvtCx0LsuLCA0NDI2ODM!5e0!3m2!1sru!2sru!4v1559415364855!5m2!1sru!2sru"
+                 width="100%"
+                 height="350"  frameborder="0" style="border:0" allowfullscreen></iframe>
+                 <div class="adress">
+                     <div class="sub__header11">
+                    <p class="contacts"><span class="up-contact">адрес</span><br>г. Никольск, ул. Комсомолькая 27</p>
+                </div>
+                 <div class="sub__header22">
+                    <p class="contacts"><span class="up-contact">телефон</span><br>8(937)418-33-33</p>
+                 </div>
+                 <div class="sub__header22">
+                    <p class="contacts"><span class="up-contact">e-mail</span><br>sales@nikdok.ru</p>
+                 </div>
+                 </div>
+                  </sectiaon>
+            </main>
+            <footer>
+                <div class="copyright">2019 	
+&#169 Никольский ДОК</div>
+                <div class="tel">8(937)418-33-33</div>
+            </footer>
+        
+    </div>
+    <div class="right"></div>
+    
+    <div id="popup">      
+        <div id="popup__sub">
+        <i class="fas fa-times" id="close"></i>
+        <h3 class="callback">Обратный звонок</h3>
+        <form action="">
+            <label for="input1">Ваше имя*</label><br>
+            <input type="text" id="input1" class="textfield"><br>
+            <label for="input2">Номер телефона*</label><br>
+            <input type="text" id="input2" class="textfield"><br>
+            <button id="btn1">Заказать звонок</button>
+        </form>
+        </div>  
+    </div>
+    
+   
+    
+</body>
+</html>
