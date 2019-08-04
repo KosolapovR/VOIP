@@ -24,7 +24,7 @@
           <p>Оборудование и решение для voip</p>
       </div>
       <div class="header-conteiner-items callback">
-         <img src="icons/conversation1.svg" alt="">
+         <img src="icons/conversation_out.svg" alt="">
           <span class="callback-text"><a href="">Обратный звонок</a></span>
       </div>
       <div class="header-conteiner-items contact-info">
@@ -35,7 +35,9 @@
           <p class="mail"><a href="">info@nomy.ru</a></p>
           
       </div>
-      <div class="header-conteiner-items search-icon"><i class="fas secondary fa-search fa-2x"></i></div>
+      <div class="header-conteiner-items search-icon">
+      <i class="fas secondary fa-search fa-2x"></i>
+      </div>
       <div class="header-conteiner-items search-box">
           <p><i class="fas fa-ruble-sign"></i><span class="secondary">voip решения</span><br>для экономных людей</p>
           <form action="">
@@ -634,10 +636,14 @@
                        <li><a href="">Техподдержка</a></li>
                        <li><a href="">Контакты</a></li>
                    </ul>
+                   <div class="callback1">
+         <img src="icons/conversation.svg" alt="callback">
+          <span class="callback-text"><a href="">Обратный звонок</a></span>
+      </div>
                </div>
                <div class="col col4">
                    <div class="callback1">
-         <img src="icons/conversation1.svg" alt="callback">
+         <img src="icons/conversation.svg" alt="callback">
           <span class="callback-text"><a href="">Обратный звонок</a></span>
       </div>
                    <div class="header-conteiner-items contact-info">

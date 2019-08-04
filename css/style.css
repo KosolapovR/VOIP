@@ -125,23 +125,26 @@ border-bottom: 0px solid #fff;
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
     position: absolute;
-    top: 5%; 
- left: 4%;
-}   
+    top: 17%; 
+ left: 32%;
+}    
 .callback{ 
      
     
      -ms-grid-column: 2;
     -ms-grid-row: 1;
-    margin-left: -10px;
+    margin-left: -10px; 
      position: relative;
+   
+    
     
  
     
 }
 .callback-text{
      position: absolute;
-    top: 27%;
+    top: 39%;
+    right: 0;
     width: 100px;
     line-height: 1.5em;
     text-align: center;
@@ -395,8 +398,6 @@ transform: scale(1.5);
     -ms-grid-column: 10;
     -ms-grid-row: 1;
 }
-
-
 
 .catalog-list-item{
     padding: 0 5px;
@@ -1443,8 +1444,11 @@ footer{
     justify-items: center;
 }
 
+.top_footer_whraper .col3 .callback1{
+    display: none;
+}
 .top_footer_whraper .col4{
-   
+    
     justify-items: flex-end;
     display: -webkit-flex;
     display: -moz-flex;
@@ -1456,12 +1460,12 @@ footer{
     
     
 }
-.col4 .callback1{
-    -ms-align-self: center;
-    align-self: center;
+.callback1{
+    -ms-align-self: flex-start;
+    align-self: flex-start;
     position: relative;
 }
-.col4 .callback1 img{
+.callback1 img{
     
     width: 70px;
     height: 70px; 
@@ -1471,7 +1475,7 @@ footer{
     transform: rotate(180deg);
     ;
 }
-.col4 .callback1 .callback-text{
+.callback1 .callback-text{
      position: absolute;
     top: 27%;
     width: 100px;
@@ -1509,18 +1513,50 @@ footer{
     
      /***HEADER***/
      .header-conteiner{
-    grid: 1fr/ 200px auto minmax(166px, 20%) minmax(5%, 10%) 173px;
+    grid: 1fr/ 200px 1fr minmax(166px, 20%) minmax(5%, 10%) 173px;
     -ms-grid-columns: 200px 1fr minmax(166px, 20%) minmax(5%, 10%) 173px;
     }
     
-    .callback{
-      
-        justify-self: center; 
-    }
+    .callback img{
+    height: 65%;
+    width: 65%;
+    -webkit-transform: rotate(180deg); 
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: absolute;
+    top: 17%; 
+ left: 32%;
+}    
+.callback{ 
+     
+    
+     -ms-grid-column: 2;
+    -ms-grid-row: 1;
+    margin-left: -10px; 
+     position: relative;
+    justify-self: right;
+    width: 115px;
+   
+    
+    
+ 
+    
+}
+.callback-text{
+     position: absolute;
+    top: 39%;
+    right: -10px;
+    width: 100px;
+    line-height: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
     .skype{
-        display: block;
+        display: block; 
     }
-    .skype>.fab{
+    .skype>.fab{ 
         color: #00abee;
         -webkit-transform: scale(1.5);
         -ms-transform: scale(1.5);
@@ -1576,12 +1612,19 @@ footer{
         width: 100%;
         height: auto;
     }
-     
+      
     /***BRANDS***/ 
     .brand-whrapper{
     grid: 1fr/repeat(auto-fit, minmax(auto, 123px));
 }
     
+    /***FOOTER***/
+   .col4 > .callback1{
+        display: none;
+    }
+    .top_footer_whraper .col3 .callback1{
+        display: block; 
+    }
     
 }
     
