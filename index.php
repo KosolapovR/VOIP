@@ -18,9 +18,13 @@
              <p class="mail"><a href="">info@nomy.ru</a></p>
             <p class="skype"><i class="fab fa-skype"></i> skype-on.06</p>
       </div>
-      <div class="header-conteiner-items logo">
+      <div class="header-conteiner-items logo-conteiner">
           <span>Ваш регион: <a href="" id="region">Москва</a></span>
-          <img id="logo" src="images/logo.png" alt="logo">
+          <div class="logo">
+              <div class="ho">ho</div>
+              <div class="my"></div>
+              <div class="ru"></div>
+          </div>
           <p>Оборудование и решение для voip</p>
       </div>
       <div class="header-conteiner-items callback">
@@ -615,7 +619,7 @@
        <div class="top_footer">
            <div class="top_footer_whraper justify">
                <div class="col col1">
-                   <img id="logo" src="images/logo.png" alt="logo">
+                   <img id="logo-container" src="images/logo.png" alt="logo">
                    <p>                  	&#169 ХомиРу, 2006-2019 <br>
                    Оборудование и решения для VoIP
                    </p>

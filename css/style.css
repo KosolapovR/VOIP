@@ -102,20 +102,26 @@ border-bottom: 0px solid #fff;
     padding: 10px;
 }
 
-#logo{
+#logo-conteiner{
     margin-top: 18px;
     margin-bottom: 7px;
 }
-.logo{
+.logo-conteiner{
    -ms-grid-column: 1;
     -ms-grid-row: 1;
 
 }
-.logo>p{
+.logo-conteiner>p{
     
     text-transform: uppercase;
     font-size: 10px;
 
+}
+
+.logo-conteiner.logo{
+    width: 200px; 
+    height: 50px;
+    background: red;
 }
 .callback img{
     height: 65%;
@@ -1474,7 +1480,7 @@ footer{
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
     ;
-}
+} 
 .callback1 .callback-text{
      position: absolute;
     top: 27%;
@@ -1621,7 +1627,7 @@ footer{
     /***FOOTER***/
    .col4 > .callback1{
         display: none;
-    }
+    } 
     .top_footer_whraper .col3 .callback1{
         display: block; 
     }
