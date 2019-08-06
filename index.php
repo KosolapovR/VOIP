@@ -201,7 +201,7 @@
           <div class="card-item">
               <img src="images/item4.jpg" alt="">
               <div class="stiker-orange"></div>
-              <p class="stiker-new stiker-new-orange">NEW</p>
+              <div class="stiker-like"></div>
               <a href="">IP телефон Siemens Gigaset C530A IP</a>
               <p class="price">Цена: <span class="price-new_price">12 300 р.</span><span class="price-old_price"> 15 500 р.</span></p>
               <div class="order-whrapper">
@@ -212,7 +212,7 @@
           <div class="card-item">
               <img src="images/item3.jpg" alt="">
               <div class="stiker-orange"></div>
-              <p class="stiker-new">NEW</p>
+              <div class="stiker-like"></div>
               <a href="">IP телефон Siemens Gigaset C530A IP</a>
               <p class="price">Цена: <span class="price-new_price">12 300 р.</span><span class="price-old_price"> 15 500 р.</span></p>
               <div class="order-whrapper">
@@ -223,7 +223,7 @@
           <div class="card-item">
               <img src="images/item2.jpg" alt="">
               <div class="stiker-orange"></div>
-              <p class="stiker-new stiker-new-orange">NEW</p>
+              <div class="stiker-like"></div>
               <a href="">IP телефон Siemens Gigaset C530A IP</a>
               <p class="price">Цена: <span class="price-new_price">12 300 р.</span><span class="price-old_price"> 15 500 р.</span></p>
               <div class="order-whrapper">
@@ -234,7 +234,7 @@
           <div class="card-item">
               <img src="images/item1.jpg" alt="">
               <div class="stiker-orange"></div>
-              <p class="stiker-new stiker-new-orange">NEW</p>
+              <div class="stiker-like"></div>
               <a href="">IP телефон Siemens Gigaset C530A IP</a>
               <p class="price">Цена: <span class="price-new_price">12 300 р.</span><span class="price-old_price"> 15 500 р.</span></p>
               <div class="order-whrapper">
@@ -256,7 +256,7 @@
           <div class="card-item">
               <img src="images/item2.jpg" alt="">
               <div class="stiker-blue"></div>
-              <p class="stiker-new">NEW</p>
+              <p class="stiker-percent">%</p>
               <a href="">IP телефон Siemens Gigaset C530A IP</a>
               <p class="price">Цена: <span class="price-new_price">12 300 р.</span><span class="price-old_price"> 15 500 р.</span></p>
               <div class="order-whrapper">
@@ -267,7 +267,7 @@
           <div class="card-item">
               <img src="images/item1.jpg" alt="">
               <div class="stiker-blue"></div>
-              <p class="stiker-new">NEW</p>
+              <p class="stiker-percent">%</p>
               <a href="">IP телефон Siemens Gigaset C530A IP</a>
               <p class="price">Цена: <span class="price-new_price">12 300 р.</span><span class="price-old_price"> 15 500 р.</span></p>
               <div class="order-whrapper">
@@ -278,7 +278,7 @@
           <div class="card-item">
               <img src="images/item3.jpg" alt="">
               <div class="stiker-blue"></div>
-              <p class="stiker-new">NEW</p>
+              <p class="stiker-percent">%</p>
               <a href="">IP телефон Siemens Gigaset C530A IP</a>
               <p class="price">Цена: <span class="price-new_price">12 300 р.</span><span class="price-old_price"> 15 500 р.</span></p>
               <div class="order-whrapper">
@@ -289,7 +289,7 @@
           <div class="card-item">
               <img src="images/item4.jpg" alt="">
               <div class="stiker-blue"></div>
-              <p class="stiker-new">NEW</p>
+              <p class="stiker-percent">%</p>
               <a href="">IP телефон Siemens Gigaset C530A IP</a>
               <p class="price">Цена: <span class="price-new_price">12 300 р.</span><span class="price-old_price"> 15 500 р.</span></p>
               <div class="order-whrapper">
@@ -418,15 +418,18 @@
           <div class="line"></div>
       </div>
       <div class="buy-now-conteiner">
-          <div class="buy-now-conteiner_whrapper"><img src="images/item6.jpeg" alt="">
+          <div class="buy-now-conteiner_whrapper buy-now-conteiner_whrapper1">
+          <img src="images/item6.jpeg" alt="">
           <a href="">Замок дверной Samsung SHS-2320 XMK/EN</a></div>
-          <div class="buy-now-conteiner_whrapper">
+          <div class="buy-now-conteiner_whrapper buy-now-conteiner_whrapper2">
               <img src="images/item5.jpeg" alt="">
               <a href="">GSM-VoIP шлюз OpenVox VoxStack VS-GW2120-4G</a>
           </div>
-          <div class="buy-now-conteiner_whrapper"><img src="images/item7.jpeg" alt=""> 
+          <div class="buy-now-conteiner_whrapper buy-now-conteiner_whrapper3">
+          <img src="images/item7.jpeg" alt=""> 
            <a href="">IP телефон Grandstream GXP 2130</a></div>
-          <div class="buy-now-conteiner_whrapper">  <img src="images/item8.jpeg" alt="">
+          <div class="buy-now-conteiner_whrapper buy-now-conteiner_whrapper4">  
+          <img src="images/item8.jpeg" alt="">
            <a href="">GSM телефон BQD-2051 Rome</a></div>
           
 
@@ -568,25 +571,30 @@
                <div class="element_icons">
                    <img class="element_icons_arrow" src="icons/long-arrow-pointing-to-the-right.png" alt="arrow">
                </div>
-           </div><div class="element">
+           </div>
+           <div class="element">
                <div class="element_icons">
                    <img class="icons" src="icons/verified.svg" alt="icon">
                </div>
                <div class="element_text"><span class="bold">2.</span> Подтверждение заказа</div>
-           </div><div class="element">
+           </div>
+           <div class="element">
                <div class="element_icons">
                   <img class="element_icons_arrow" src="icons/long-arrow-pointing-to-the-right.png" alt="arrow">
                </div>
-           </div><div class="element">
-               <div class="element_icons">
+           </div>
+           <div class="element">
+            <div class="element_icons">
                    <img class="icons" src="icons/logistics-delivery-truck-in-movement.svg" alt="icon">
                </div>
                <div class="element_text"><span class="bold">3.</span> Доставка товара</div>
-           </div><div class="element">
+           </div>
+           <div class="element">
                <div class="element_icons">
                     <img class="element_icons_arrow" src="icons/long-arrow-pointing-to-the-right.png" alt="arrow">
                </div>
-           </div><div class="element">
+           </div>
+           <div class="element">
                <div class="element_icons">
                    <img class="icons" src="icons/purse.svg" alt="icon">
                </div>
