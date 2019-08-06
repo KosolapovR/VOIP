@@ -5,8 +5,11 @@
    
   <meta charset="utf-8" name="viewport" 
         content= "width=device-width, initial-scale=1.0"> 
-    <title>Тестовое задание</title>
-    
+        <meta http-equiv="Cache-Control" content="public">
+        <meta name="description" content="Купить системы видеонаблюдения в интернет-магазине VOIP с доставкой и гарантией. Ознакомиться с ценами, отзывами владельцев, фотографиями, техническими характеристиками и подробным описанием.">
+        <meta >
+    <title>Интернет магазин систем видеонаблудения, купить системы видеонаблюдения, VOIP</title>
+    <link rel="shortcut icon" href="./icons/favicon.png" type="image/png">
  <link rel="stylesheet" href="css/style.css">
  <script src="https://kit.fontawesome.com/0f541523eb.js"></script>
   

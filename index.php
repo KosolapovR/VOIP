@@ -29,7 +29,7 @@
       </div>
       <div class="header-conteiner-items callback">
          <img src="icons/conversation_out.svg" alt="">
-          <span class="callback-text"><a href="">Обратный звонок</a></span>
+          <span class="callback-text"><a href="tel:+74952554466">Обратный звонок</a></span>
       </div>
       <div class="header-conteiner-items contact-info">
           <p class="number">+7 495 2-55-44-66</p>
@@ -115,7 +115,7 @@
           <div><a class="solid" href="">Все новости</a></div>
       </div>
       <div class="news-slider">
-            <img id="right-arr" src="/images/right-arrow.png" alt="">
+            <img id="right-arr" class="arrow" src="/images/right-arrow.png" alt="">
           <div class="news-slider-content">
               <h2 class="news-slider-content-title upcase primary "><span class="secondary bold upcase">революционные решения</span> на рынке среди систем вкс!</h2>
               <ul class="primary">GVC 3200 от компании grandstream это:
@@ -125,7 +125,7 @@
               </ul>
               <div class="btn btn_more primary bold upcase">Подробнее</div>
           </div>
-           <img id="left-arr" src="/images/right-arrow.png" alt="">
+           <img id="left-arr" class="arrow" src="/images/right-arrow.png" alt="">
            <div class="news-slider-elements">
                <div class="news-slider-elements-item"></div>
                <div class="news-slider-elements-item"></div>
